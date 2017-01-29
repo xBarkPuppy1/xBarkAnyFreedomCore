@@ -4,6 +4,6 @@ version: ${tfm.build.version}
 description: Plugin developed by our authors.
 depend: [Aero, WorldEdit]
 softdepend: [BukkitTelnet, Essentials, LibsDisguises]
-authors: [M1CE (or CPacket), darkwolfXST]
+authors: [M1CE (or CPacket), darkwolfXST xBarkPuppy1]
 
 # plugin.yml is no longer used to define commands.
