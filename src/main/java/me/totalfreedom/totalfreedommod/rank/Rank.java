@@ -11,10 +11,11 @@ public enum Rank implements Displayable
     OP("an", "Op", Type.PLAYER, "OP", ChatColor.RED),
     SUPER_ADMIN("a", "Super Admin", Type.ADMIN, "SA", ChatColor.AQUA),
     TELNET_ADMIN("a", "Telnet Admin", Type.ADMIN, "STA", ChatColor.DARK_GREEN),
-    SENIOR_ADMIN("a", "Senior Admin", Type.ADMIN, "SrA", ChatColor.GOLD),
-    SENIOR_ADMIN("a", "packket squid memeber", Type.ADMIN, "PacketSquad", ChatColor.GOLD),
-    TELNET_CONSOLE("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE),
-    SENIOR_CONSOLE("the", "Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE);
+    LEAD_DEVELOPER("a", "Lead Developer", Type.ADMIN, "LeadDev", ChatColor.GOLD),
+    SENIOR_ADMIN("a", "SeniorAdmin", Type.ADMIN, "SrA", ChatColor.GOLD), 
+    Demotedintoabird("a", "DemotedAdmin", Type.ADMIN, "Dabird", ChatColor.GOLD)
+    TELNET_CONSOLE("the", "Telnet Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE),
+    SENIOR_CONSOLE("the", "Senior Console", Type.ADMIN_CONSOLE, "Console", ChatColor.DARK_PURPLE);
     @Getter
     private final Type type;
     @Getter
