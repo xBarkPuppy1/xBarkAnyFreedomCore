@@ -1,7 +1,7 @@
-name: DogFreedomMod
+name: xBarkAnyFreedomCore
 main: me.totalfreedom.totalfreedommod.TotalFreedomMod
-version: ${tfm.build.version}
-description: Plugin developed by our authors.
+version: 0.1}
+description: Plugin developed xBarkPuppy1 2 Orignally the BCNFreedom developing Team first orignally.
 depend: [Aero, WorldEdit]
 softdepend: [BukkitTelnet, Essentials, LibsDisguises]
 authors: [M1CE (or CPacket), darkwolfXST xBarkPuppy1]
